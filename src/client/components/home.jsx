@@ -26,7 +26,7 @@ import { DemoButtons } from "./demo-buttons";
 /**/
 
 export default () =>
-  <div className={custom.container}>
+  (<div className={custom.container}>
     {/**/}
 
     <section className={custom.header}>
@@ -47,4 +47,4 @@ export default () =>
     <div className={custom["docs-section"]}>
       <DemoButtons />
     </div>
-  </div>;
+  </div>);

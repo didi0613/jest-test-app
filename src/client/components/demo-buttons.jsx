@@ -7,7 +7,7 @@ import custom from "../styles/custom.css";
  */
 
 export const DemoButtons = () =>
-  <div>
+  (<div>
     <h6 className={custom["docs-header"]}>
       demo CSS modules with buttons from <a href="http://getskeleton.com/">skeleton</a>
     </h6>
@@ -25,4 +25,4 @@ export const DemoButtons = () =>
       <input className={skeleton["button-primary"]} type="submit" value="submit input" />
       <input className={skeleton["button-primary"]} type="button" value="button input" />
     </div>
-  </div>;
+  </div>);

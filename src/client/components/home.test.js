@@ -6,6 +6,8 @@ import rootReducer from "client/reducers";
 import Home from "client/components/home";
 import { mount } from "enzyme";
 
+/* eslint-disable no-magic-numbers, no-undef */
+
 describe("Home", () => {
   let component;
   let container;
@@ -51,3 +53,5 @@ describe("Home", () => {
     expect(items.at(2).text()).toEqual(item3);
   });
 });
+
+/* eslint-enable */
